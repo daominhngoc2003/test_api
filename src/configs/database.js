@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 const connectLocalDB = () => {
   mongoose
     .connect(
-      "mongodb+srv://ngovanvu203:ngovanvu203@atlascluster.xeqf9ni.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+      "mongodb+srv://ngovanvu203:ngovanvu203@atlascluster.xeqf9ni.mongodb.net/demo"
     )
     .then(() => console.log("Kết nối thành công"))
     .catch((err) => console.log(err));
